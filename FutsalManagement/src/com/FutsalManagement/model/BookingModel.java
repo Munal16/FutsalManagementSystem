@@ -23,10 +23,10 @@ public class BookingModel {
     public BookingModel(String BookingDate, String BookingId, String Location, String FullName, String contact, String TotalCost) {
         this.BookingDate = BookingDate;
         this.BookingId = BookingId;
-        this.FullName = Location;
+        this.Location = Location;
         this.FullName = FullName;
         this.contact = contact;
-        this.FullName = TotalCost;
+        this.TotalCost = TotalCost;
     }
     
     public String getBookingDate() {
